@@ -4,7 +4,6 @@
 #include <vector>
 using namespace std;
 void read_from_file(const string& filename, stringstream& buffer) {
-    string d = "day01_input.txt";
     ifstream file(filename);
     
     if (file) {
